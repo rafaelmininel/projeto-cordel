@@ -22,6 +22,11 @@ html, body {
     font-family: var(--fonte01);
 }
 
+pre {
+    font-family: var(--fonte03);
+    white-space: pre-line;
+}
+
 header {
     background-color: black;
     color: white;
@@ -85,6 +90,7 @@ section.imagem > p {
 section#img01 {
     background-image: url(imagens/background001.jpg);
     background-position: right center;
+    width: 100%;
 }
 
 section#img02 {
